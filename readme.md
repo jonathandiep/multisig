@@ -6,7 +6,7 @@ This is a Multiple Signature Wallet built with [Hardhat](https://hardhat.org/).
 
 There are three top-level folders:
 
-1. `/app` - contains the front-end application
+1. `/dapp` - contains the front-end application
 2. `/contracts` - contains the solidity contract
 3. `/scripts` - contains a script for deploying the contract
 
@@ -26,6 +26,17 @@ After that, run `npx hardhat run scripts/deploy.js --network localhost` to deplo
 
 ## Front-End
 
-To run the front-end application run `parcel app/index.html` from the top-level directory.
+To run the front-end application run `npm run dev` or `yarn run dev` from the `dapp` directory.
 
-You can learn more about Parcel [here](https://parceljs.org/).
+```
+cd dapp
+npm install
+npm run dev
+
+# or you can use yarn
+cd dapp
+yarn
+yarn run dev
+```
+
+You can learn more about Next JS [here](https://nextjs.org/).

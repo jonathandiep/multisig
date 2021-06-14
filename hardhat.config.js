@@ -1,14 +1,14 @@
-require("@nomiclabs/hardhat-waffle");
-require('dotenv').config();
+require('@nomiclabs/hardhat-waffle')
+require('dotenv').config()
 
 module.exports = {
-  solidity: "0.7.5",
+  solidity: '0.7.5',
   paths: {
-    artifacts: "./app/artifacts",
+    artifacts: './dapp/artifacts',
   },
   networks: {
     localhost: {
-      url: "http://localhost:8545"
-    }
-  }
-};
+      url: 'http://localhost:8545',
+    },
+  },
+}
